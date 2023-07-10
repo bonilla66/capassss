@@ -1,0 +1,156 @@
+.contenedor-info-total-admin {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    height: 92vh;
+
+}
+
+.info-principal-admin{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    row-gap: 0;
+    border-bottom: 1.5px solid black;
+    font-size: 25px;
+}
+
+.info-localidades-admin {
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    align-items: center;
+    border-bottom: 1.5px solid black;
+}
+
+.titulo-artista-admin {   
+    font-size: 45px;
+    margin-left: -25px;
+    width: 400px;
+    font-weight: semi-bold;
+}
+
+.img-show-admin{
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 25px;
+    margin-bottom: 27px;
+    width:140px;
+    height: 190px;
+    border-radius: 20px;
+}
+
+.info-principal-grupo-admin { 
+    display: flex;
+    font-weight: lighter;
+    font-size: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 930px;
+
+}
+
+.texto-principal1-admin{
+    width: 250px;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+.texto-principal2-admin{
+    margin-top: 62px;
+    width: 340px;
+}
+
+
+.lista-localidad-admin{
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-bottom: 90px;
+}
+
+.columna-lista-loc-admin {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+}
+
+
+
+.img-localidades-admin{
+    width: 350px;
+    height: 250px;
+    margin-bottom: 45px;
+    margin-right: 50px;
+}
+
+.patro-texto-admin{
+    margin-left: 25px;
+    font-size: 22px;
+}
+
+ul{
+    margin-top: 55px;
+}
+
+li {
+    
+    margin-top: 20px;
+    margin-right: 55px;
+}
+
+.titulos-lo-pa-admin{
+
+    margin-bottom: 5px;
+    margin-left: 20px;
+    font-size: 35px;
+}
+
+.principal-fecha-admin > svg,
+.principal-ubi-admin > svg,
+.principal-hora-admin > svg,
+.principal-duracion-admin> svg,
+.principal-categoria-admin > svg {
+    margin-right: 10px; 
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.div-btns-admin{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+.boton-cancel-event{
+    margin-left: 1100px;
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #FF0000;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}
+
+.boton-edit-event{
+    width: 160px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fdbf36;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+}

@@ -1,0 +1,160 @@
+.contenedor-info-total {
+    position: relative;
+    height: 110vh;
+    background-color: #f5f5f5;
+}
+
+.card-info-totalll {
+    margin-top: 30px;
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+    position: absolute;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.img-card-fondo {
+    height: 250px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+}
+
+.titulo-card-info > h1 {
+    margin-left: 10px;
+    color: #f5f5f5;
+    padding-top: 200px;
+}
+
+.info-icons-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-icons-card > p {
+    margin-top: 5px;
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.info-icons-card > p > svg {
+    margin-right: 5px;
+    margin-top: -3px;
+    font-size: 20px;
+}
+
+.localidades-card-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.card-info-totalll > h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.localidades-card-info1 {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+}
+
+.localidades-card-info1-1 {
+    margin-left: 60px;
+}
+
+.localidades-card-info1-2 {
+    margin-left: 60px;
+}
+
+.localidades-card-info2 {
+    margin-left: 350px;
+}
+
+.localidades-card-info2 > img {
+    width: 300px;
+    height: 210px;
+}
+
+.patro-colab-cont {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.colab-cont {
+    margin-left: 400px;
+}
+
+.patro-cont {
+    margin-left: 20px;
+}
+
+.contenedor-botones {
+    display: flex;
+    justify-content: center; 
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background-color: #f5f5f5;
+}
+
+
+.contenedor-botones button {
+    padding: 5px 30px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.cancelar-evento-button {
+    background-color: #dc3545;
+}
+
+.comprar-button {
+    background-color: #FDBF36;
+}
+
+.editar-button {
+    background-color: #ccc;
+}
+
+.link-button {
+    text-decoration: none;
+}
+
+.link-button:focus,
+.link-button:hover {
+    text-decoration: none;
+    outline: none;
+}
+
+
+.img-serv-info{
+    width: 150px;
+    height: 100px;
+}
+
+.acep-card{
+    border: none;
+    border-radius: 15px;
+    background-color: #dc3545;
+    color: white;
+    padding:  5px 15px;
+}
+
+.can-card{
+    border: none;
+    border-radius: 15px;
+    background-color: #ccc;
+    color: white;
+    padding:  5px 15px;
+}
+
+
+

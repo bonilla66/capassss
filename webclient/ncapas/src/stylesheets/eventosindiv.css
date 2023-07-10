@@ -1,0 +1,45 @@
+.eventos-container-ev {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: #f5f5f5;
+    min-height: 89vh;
+    padding-top: 5px;
+    padding-left: 45px;
+}
+
+.cadaevento{
+    padding-bottom: 0px;
+    padding-top: 5px;
+    padding-left: 15px;
+    font-size: 20px;
+    background-color: #f5f5f5;
+    border-bottom: black solid 1px;
+}
+
+.cadaevento > p{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+
+    .eventos-container-ev {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #f5f5f5;
+        margin-left: 80px;
+        height: 60vh;
+        padding-top: 20px;
+    }
+    
+    .cadaevento{
+        padding-bottom: 0px;
+        padding-top: 5px;
+        padding-left: 15px;
+        font-size: 10px;
+        background-color: #f5f5f5;
+        border-bottom: black solid 1px;
+        margin-top: 15px;
+    }
+    
+}

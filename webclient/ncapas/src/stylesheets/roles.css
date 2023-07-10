@@ -1,0 +1,178 @@
+
+.rol-encabezado-total {
+    background-color: #f5f5f5;
+}
+
+.rol-encabezado {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.titulos-div-rol>h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.roldiv{
+    position: sticky;
+    min-height: 211px;
+    max-height: 333px;
+}
+
+
+.cont-rol-completo {
+    height: 68vh;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+
+.indiv-roles-pr{
+    overflow-y: scroll;
+}
+
+.titulos-div-rol {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E0E0E0;
+    border-bottom: black 1px solid;
+    position: sticky;
+}
+
+.usuarios-div-rol {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+
+.titulos-div-rol>p {
+    margin-left: -200px;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.usuario-mods-rol>p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.roldiv-container {
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.roldiv-content {
+    padding-right: 15px;
+}
+
+.titulos-div-rol {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.roldiv {
+    margin-top: -270px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 0px;
+    width: 1000px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rol-encabezado h3 span {
+    color: #FDBF36;
+}
+
+.toggle-button {
+    width: 50px;
+    height: 25px;
+    border-radius: 25px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+}
+
+.toggle-button.active {
+    background-color: #FDBF36;
+}
+
+.toggle-slider {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 2.5px;
+    left: 2.5px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.toggle-button.active .toggle-slider {
+    transform: translateX(25px);
+}
+
+.ul-roles {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+}
+
+.li-rol {
+    width: 100%;
+    margin-top: 3px;
+    flex: 1;
+    background-color: transparent;
+}
+
+.li-rol:hover {
+    background-color: #ccc;
+    border-radius: 30px;;
+}
+
+.rol-checkbox:checked + span::before {
+    background-color: transparent;
+    border-color: #fdbf36;
+}
+
+
+
+.rol-label {
+    display: flex;
+    align-items: center;
+}
+
+.rol-checkbox {
+    display: none;
+}
+
+.rol-checkbox+span {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.rol-checkbox+span::before {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 60%;
+    margin-right: 5px;
+}
+
+.rol-checkbox:checked+span::before {
+    background-color: #fdbf36;
+    border-color: #fdbf36;
+}

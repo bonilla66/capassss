@@ -1,0 +1,110 @@
+.moderador-encabezado-total{
+    background-color: #f5f5f5;
+    margin-top: 70px;
+}
+
+.moderador-encabezado{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.moderador-encabezado h3{
+    font-size: 40px;
+
+}
+.titulos-div >h3 {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+
+.cont-mode-completo{
+    height: 84vh;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.white-check {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.titulos-div{
+    display: flex;
+    justify-content: space-evenly;;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E0E0E0;
+    border-bottom: black 1px solid;
+}
+
+.usuarios-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.titulos-div >p {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.checkbox-mod-pro{
+    margin-left: 75px;
+    align-items: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 32px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    position: relative;
+    transition: background-color 0.3s;
+}
+
+.checkbox-mod-pro:checked{
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.usuario-mods >p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.modediv-container {
+    max-height: 200px; 
+}
+
+.modediv-content {
+    padding-right: 15px; 
+}
+
+.titulos-div {
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+
+.modediv{
+    margin-top: -190px;
+    box-shadow: rgb(0, 0, 0) 0px 0px 10px 0px;
+    width: 1000px;
+    min-height: 80px;
+    display: flex;
+    flex-direction: column;
+}

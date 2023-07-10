@@ -1,0 +1,183 @@
+.contenedor-show {
+    align-items: center;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contenedor-show:hover .texto-superpuesto {
+    opacity: 2;
+}
+
+
+.texto-superpuesto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+
+.cargar-mas{
+    margin: 20px;
+}
+
+.img-show-cartelera {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 20px;
+}
+
+.contenedor-texto{
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+}
+
+.btn-info{
+    background-color: #A8A7A7;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 1px 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    text-decoration: none;
+    text-decoration: none; 
+    cursor: pointer;
+}
+
+.artista{
+    font-size: 230%;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.fecha{
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: semi-bold;
+    margin-bottom: 10px;
+    padding: 40px;
+}
+
+.ubicacion{
+    font-size: 1.5rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: semi-bold;
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .contenedor-show {
+        width: 70%;
+        margin-left: 70px;
+        margin-top: 25px;
+    }
+
+    .contenedor-solo-shows{
+        min-width: 300px;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        justify-content: space-between;
+    }
+
+    .img-show-cartelera {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 20px;
+    }
+
+    .artista{
+        font-size: 150%;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .fecha{
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: semi-bold;
+        margin-bottom: 10px;
+        padding: 40px;
+    }
+
+    .ubicacion{
+        font-size: 1.5rem;
+        padding: 10px;
+        text-align: center;
+        font-weight: semi-bold;
+        margin-bottom: 50px;
+    }
+
+    .btn-info{
+        background-color: #A8A7A7;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding: 1px 20px;
+        margin-bottom: 5px;
+        font-size: 1.1rem;
+        border-radius: 12px;
+        text-decoration: none;
+        text-decoration: none; 
+        cursor: pointer;
+    
+    }
+
+    .cargar-mas{
+        margin: 20px;
+    }
+
+    .contenedor-shows-todo{
+        background-color: black;
+    }
+    
+    .titulo {
+        font-size: 40px;
+        padding: 40px;
+        text-align: center;
+        color : white;
+        background-color: black;
+        margin-top: 0;
+    }
+    
+    .contenedor-btn{
+        position: relative;
+        height: 15vh;
+    }
+    
+    .boton-mas {
+        font-size: x-large;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #FDBF36;
+    }
+
+    
+}

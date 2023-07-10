@@ -1,0 +1,170 @@
+.pie {
+    background: linear-gradient(black, #FDBF36);
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primer-div,
+.segundo-div,
+.tercer-div,
+.cuarto-div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.primer-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.texto-logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: #FDBF36;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    margin-left: -60px;
+
+}
+
+.segundo-div,
+.tercer-div,
+.cuarto-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.titulo-footer{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: -10px;
+    margin-left: 20px;
+}
+
+.correo{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    text-decoration: underline;
+
+}
+
+.texto-tercer{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.iconos .boton {
+    padding-top: 10px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 30px;
+    margin: 0px 10px;
+}
+
+
+@media screen and (max-width: 425px){
+
+    .pie {
+        background: linear-gradient(black, #FDBF36);
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .primer-div,
+    .segundo-div,
+    .tercer-div,
+    .cuarto-div {
+        flex: 1;
+        margin-right: 20px;
+    }
+
+    .primer-div {
+        display: flex;
+        align-items: center;
+    }
+
+    .logo{
+
+        width: 70px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: -200px;
+    }
+
+    .texto-logo{
+        font-size: 20px;
+        font-weight: bold;
+        color: #FDBF36;
+        margin-top: 20px;
+        margin-bottom: -10px;
+        margin-left: -33px;
+
+    }
+
+    .segundo-div,
+    .tercer-div,
+    .cuarto-div {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .titulo-footer{
+        font-size: 15px;
+        font-weight: bold;
+        color: white;
+        margin-top: 0px;
+        margin-bottom: -10px;
+        margin-top: 20px;
+        margin-left: -250px;
+        white-space: nowrap;
+
+    }
+
+    .correo{
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+        margin-left: -150px;
+        text-decoration: underline;
+
+    }
+
+    .texto-tercer{
+        margin-top: 10px;
+        font-size: 15px;
+        color: white;
+        margin-left: 20px;
+    }
+
+    .iconos .boton {
+        padding-top: 10px;
+        background-color: transparent;
+        border: none;
+        color: white;
+        font-size: 30px;
+        margin: 0px 10px;
+    }
+    
+}

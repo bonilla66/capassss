@@ -1,0 +1,241 @@
+.miniatura-shows-ev {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 10px;
+    font-size: 15px;
+}
+
+.cada-uno-ev{
+    text-align: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding: 0 5px;
+    margin-top: 10px;
+}
+
+.img-miniatura-ev {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.cada-uno-ev >p {
+    margin: 5px 0 -5px  0;
+    padding: 0;
+}
+
+.img-button-ev{
+    border: none;
+    background-color: transparent;
+        margin: 0px;
+    padding: 0px;
+    border-radius: 20px;
+}
+
+.img-button-ev:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.modal {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    width: 650px;
+}
+
+.img-modal-info {
+    margin-left: 20px;
+    width: 180px;
+    height: 220px;
+    border-radius: 40px;
+}
+
+.container-info-modal {
+    width: 60%;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.close {
+    position: absolute;
+    top: 4px;
+    right: 21px;
+    font-size: 34px;
+    cursor: pointer;
+    color: #000000;
+}
+
+.tns-ticket {
+    color: white;
+    margin-top:10px;
+    background: #fdbf36;
+    border-radius: 30px;
+    border: none;
+    padding: 0.1rem 2rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container-detail-modal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.gen-qr {
+    border: none;
+    border-radius: 30px;
+    padding: 0.1rem 2rem;
+    font-size: 16px;
+    background: #ccc;;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ingresar-btn {
+    color: white;
+    margin-right: 5px;
+    margin-left:10px;
+    background: #fdbf36;
+    border-radius: 30px;
+    border: none;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.return-btn-modal {
+    border: none;
+    border-radius: 30px;
+    margin-left: 40px;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    background: #ccc;;
+    cursor: pointer;
+}
+
+.title-event-modal-2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.txt-2modal {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.user-txt-modal {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.input-modal-user {
+    background: #ffffff;
+    border: 2px solid #b8bbc2;
+    border-radius: 10px;
+    width: 60%;
+    padding: 0.3rem 1rem;
+    margin-top: -5px;
+    margin-left: 130px;
+    margin-bottom: 15px;
+}
+
+.title-qr-modal {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.img-qr {
+    margin-top:10px;
+    width: 200px;
+    margin-left: 210px;
+}
+
+.txt-qr-content {
+    margin-top:10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    color: #000000;
+}
+
+.txt-alternative {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    color: #fdbf36;
+}
+
+.txt-confirmed {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.confirmation-btn {
+    color: white;
+    background: #fdbf36;
+    border-radius: 30px;
+    border: none;
+    padding: 0.3rem 3rem;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.title-qr-modal-2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.img-confirm-modal {
+    width: 150px;
+    height: 100px;
+}
+
+.qr-div{
+    margin-top: 15px;
+}
+
+

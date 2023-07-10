@@ -1,0 +1,260 @@
+.completo-compra {
+    background-color: #f5f5f5;
+    height: 90vh;
+}
+
+.contenedor-total-compra>h1 {
+    margin-top: 0px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.contenedor-principal-compra-info {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1.5px solid black;
+}
+
+.contenedor-principal-compra-info>p {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.compra-fecha>svg,
+.compra-ubi>svg,
+.compra-hora>svg,
+.compra-duracion>svg {
+    margin-right: 2px;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.titulos-pequeños-datos {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.titulos-pequeños-tarjeta {
+    font-size: 30px;
+    margin-left: 580px;
+    margin-top: -45px;
+}
+
+.division-secundaria {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.contenedor-secundario-datos {
+    margin-left: 20px;
+}
+
+.contenedor-secundario-tarjeta {
+    margin-left: 203px;
+    margin-top: 20px;
+}
+
+.titulos-pequeñitos-local {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.titulos-pequeñitos-tickets {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.titulos-pequeñitos {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.input-nombre,
+.input-tarjeta,
+.input-fecha,
+.input-cvv {
+    font-size: 20px;
+    width: 800px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.checkbox-list-compra {
+    list-style: none;
+    margin-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buton-localidad {
+    border-radius: 15px;
+    margin-top: 5px;
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.buton-localidad.selected {
+    background-color: #FDBF36;
+    color: #fff;
+}
+
+.divmas {
+    justify-content: center;
+}
+
+.tickets-dropdown {
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 15px;
+}
+
+
+.number {
+    border-right: rgb(0, 0, 0) solid 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-left: rgb(0, 0, 0) solid 1px;
+}
+
+.espacios {
+    margin-bottom: 25px;
+}
+
+.espacio-total {
+    margin-top: -30px;
+}
+
+.minus,
+.plus {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.titulos-pago-total {
+    border-top: black solid 1px;
+    font-size: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.buton-comprar-tickets {
+    color: white;
+    font-size: large;
+    top: 92%;
+    left: 85%;
+    background-color: #FDBF36;
+    border-radius: 20px;
+    border: none;
+    padding: 3px 20px;
+    position: absolute;
+}
+
+.modalResumen {
+    position: fixed;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    width: 500px;
+}
+
+.titu-res{
+    color: black;
+}
+
+.pionts{
+    color: #ccc;
+}
+.h5-titu{
+    color: black;
+    margin-top: -10px;
+}
+
+.logo-res{
+    width: 100px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.modalResumen h4 {
+    margin-bottom: 10px;
+}
+
+.div-res-1{
+    color: #a1a1a1;
+}
+
+.div-res-2{
+    color: black;
+}
+
+.resume1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: -10px;
+    margin-bottom: -10px;
+}
+
+.div-res-3{
+    color: #000000;
+    margin-top: 15px;
+    font-size: 30px;
+}
+
+.modalResumen button {
+    background-color: #FDBF36;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.modalResumen button:hover {
+    background-color: #a17820;
+}

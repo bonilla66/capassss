@@ -1,0 +1,214 @@
+.login-com {
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110vh;
+
+}
+
+.login {
+    box-shadow: 5px 5px 40px;
+    border-radius: 20px;
+    margin-top: 50px;
+    width: 1200px;
+    height: 700px;
+    text-align: center;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: column;
+    overflow: hidden;
+}
+
+.logo-smung {
+    position: relative;
+    width: 600px;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.img-smung {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+.login-form,
+.img-concierto {
+    width: 50%;
+    height: 700px;
+}
+
+.img-concierto {
+    background-image: url(../images/concierto-login.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome {
+    margin-top: 0px;
+}
+
+.welcome> :nth-child(1) {
+    font-size: 60px;
+    font-style: bold;
+}
+
+.welcome> :nth-child(2) {
+    font-size: 20px;
+    margin-top: -30px;
+}
+
+.welcome>p>span {
+    color: #FDBF36;
+
+}
+
+.inputGbtn {
+    margin-top: 40px;
+    width: 350px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+}
+
+.btn-em,
+.btn-us {
+    padding: 5px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    color: #ccc;
+    width: 350px;
+    margin-left: 125px;
+}
+
+.btns>input {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn-us {
+    margin-top: 10px;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 1px;
+    background-color: #ccc;
+}
+
+.or::before {
+    left: 0;
+    right: 50%;
+}
+
+.or::after {
+    right: 0;
+    left: 50%;
+}
+
+.or p {
+    margin-top: 15px;
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+#p {
+    border: none;
+    background-color: transparent;
+    margin-top: 30px;
+    font-size: 15px;
+    color: #6f6f6f;
+    margin-left: 210px;
+}
+
+.btn-log-p {
+    margin-top: 40px;
+    padding: 5px;
+    border-radius: 7px;
+    border: none;
+    width: 350px;
+    margin-bottom: 30px;
+    background-color: #FDBF36;
+    color: #fff;
+}
+
+.modal-new {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    width: 500px;
+    overflow-y: auto;
+    text-align: center;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.modal-new h2 {
+    margin-top: 0;
+}
+
+.modal-new label {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.input-pass {
+    font-size: 15px;
+    padding: 2px 25px 2px 5px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+
+.modal-new button {
+    margin-right: 10px;
+}
+
+.img-pass {
+    width: 150px;
+    height: 100px;
+    border: none;
+}
+
+.btn-log-pass {
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    border: none;
+    width: 200px;
+    background-color: #fdbf36;
+    color: #fff;
+}
+
+.google-login-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+.presentationFondo {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/fotoPresentacion.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-attachment: fixed;
+}
+
+.presentationTitle{
+
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.divLetras{
+    float: left;
+    width: 50%;
+}
+
+@media screen and (max-width: 425px){
+
+    .presentationTitle{
+        font-size: 45px;
+        height: 50vh;
+    }
+
+    .divLetras{
+        width: 100%;
+    }
+}

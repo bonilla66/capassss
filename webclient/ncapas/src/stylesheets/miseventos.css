@@ -1,0 +1,68 @@
+.mis-eventos-cont-total{
+    background-color: #f5f5f5;
+}
+
+.titulo-eventos{
+    margin-left: 10px;
+    font-size: 30px;
+    color: #000000;
+    margin-top: 5px;
+}
+
+.pasopre{
+    font-size: 20px;
+    color: #000000;
+    width: 100%;
+    justify-content: space-around;
+    border-bottom: black solid 1px;
+}
+
+.pasopre > button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: #000000;
+    padding-left: 10px;
+}
+
+.pasopre > button:hover{
+    text-decoration: underline #FDBF36;
+}
+
+.eventos-container {
+    margin-left: 45px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+@media screen and (max-width: 425px) {
+
+    .eventos-container {
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 80px;
+        padding-top: 20px;
+    }
+
+    .cadaevento{
+        padding-bottom: 0px;
+        padding-top: 5px;
+        padding-left: 15px;
+        font-size: 10px;
+        border-bottom: black solid 1px;
+        margin-top: 15px;
+    }
+
+    .pasopre{
+        font-size: 20px;
+        color: #000000;
+        width: 100%;
+        justify-content: space-around;
+        border-bottom: black solid 1px;
+    }
+
+
+
+}
+
+

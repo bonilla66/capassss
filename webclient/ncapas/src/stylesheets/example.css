@@ -1,0 +1,131 @@
+.contenedor-shows-todo{
+    background-color: black;
+}
+
+.titulo {
+    font-size: 40px;
+    padding: 40px;
+    text-align: center;
+    color : white;
+    background-color: black;
+    margin-top: 0;
+}
+
+.contenedor-btn{
+    position: relative;
+    height: 15vh;
+}
+
+.boton-mas {
+    
+    font-size: x-large;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FDBF36;
+    border-radius: 20px;
+    border: none;
+    padding: 3px 20px;
+}
+
+.boton-mas:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.contenedor-solo-shows{
+    min-width: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    justify-content: space-between;
+}
+
+.cartelera {
+    width: calc(33.33% - 20px); 
+    margin-bottom: 20px; 
+}
+
+.btn-info:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.contenedor-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.button-wrapper {
+    padding-left: 40px;
+    z-index: 2;
+}
+
+.boton-mas {
+    font-size: x-large;
+    font-weight: semi-bold;
+    background-color: #FDBF36;
+    display: block;
+    margin: 0 auto;
+    padding-left: 20px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.horizontal-line {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #FDBF36;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+@media screen and (max-width: 425px){
+
+    .titulo {
+        font-size: 30px;
+        padding: 20px;
+        text-align: center;
+        color : white;
+        background-color: black;
+        margin-top: 0;
+    }
+
+    .contenedor-btn{
+        position: relative;
+        height: 15vh;
+    }
+
+
+    .contenedor-solo-shows{
+        min-width: 300px;
+        flex-wrap: wrap;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        justify-content: space-between;
+    }
+
+    .cartelera {
+        width: calc(100% - 20px); 
+        margin-bottom: 20px; 
+    }
+
+    .btn-info:hover{
+        opacity: 1;
+        cursor: pointer;
+    }
+    
+}
+
